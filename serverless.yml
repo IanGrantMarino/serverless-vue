@@ -1,0 +1,10 @@
+org: iangrant
+app: vue-app-test
+name: vue-starter
+component: website
+
+inputs:
+  src:
+    src: ./src
+    hook: yarn build
+    dist: ./dist
